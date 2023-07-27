@@ -1,0 +1,31 @@
+package com.tut;
+
+public class Certificate {
+	private String course;
+	private String duation;
+	
+	
+	public String getCourse() {
+		return course;
+	}
+	public void setCourse(String course) {
+		this.course = course;
+	}
+	public String getDuation() {
+		return duation;
+	}
+	public void setDuation(String duation) {
+		this.duation = duation;
+	}
+	public Certificate() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Certificate(String course, String duation) {
+		super();
+		this.course = course;
+		this.duation = duation;
+	}
+	
+	
+}

@@ -1,0 +1,33 @@
+package com.tut;
+
+import javax.transaction.Transaction;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Project started.." );
+//        SessionFactory factory = new Configuration().configure().buildSessionFactory();
+        Configuration cfg = new Configuration();
+        cfg.configure("hibernate.cfg.xml");
+        SessionFactory factory = cfg.buildSessionFactory();
+        
+        Student st = new Student();
+        st.setId(103);
+        st.setName("Ankit");
+        st.setCity("Lucknow");
+        System.out.println(st);
+        
+     Session session =   factory.getCurrentSession();
+     
+    session.beginTransaction();
+     session.save(st);
+     session.getTransaction().commit();
+     session.close();
+        
+          }
+}
