@@ -49,11 +49,11 @@ public class MapDemo {
 //	    list.add(answer2);
 //	
 //	   q1.setAnswers(list);
-//	    //Session
+////	    //Session
 	    Session s=factory.openSession();
 	    Transaction tx = s.beginTransaction();
-//		
-//	    //save
+////		
+////	    //save
 //	   
 //	    s.save(q1);
 //	    s.save(answer);
@@ -64,14 +64,11 @@ public class MapDemo {
 	    
 	    Question q= (Question)s.get(Question.class, 1212);
 	    
+	    System.out.println(q.getQuestionId());
 	    System.out.println(q.getQuestion());
 	    
-	    for(Answer a:q.getAnswers())
-	    {
-	    	
-	    	System.out.println(a.getAnswer());
-	    	
-	    }
+	    System.out.println(q.getAnswers().size());
+
 	    
 		tx.commit();
 		
