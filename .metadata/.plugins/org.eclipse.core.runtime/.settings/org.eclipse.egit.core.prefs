@@ -1,2 +1,5 @@
+GitRepositoriesView.GitDirectories=C\:\\One Drive\\OneDrive\\Desktop\\Hibernate\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;
 core_autoIgnoreDerivedResources=false
+core_ssh_default_agent=\\\\.\\pageant
 eclipse.preferences.version=1

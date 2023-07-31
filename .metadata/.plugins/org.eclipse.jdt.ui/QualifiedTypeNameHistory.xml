@@ -3,8 +3,6 @@
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
     <fullyQualifiedTypeName name="java.security.cert.Certificate"/>
-    <fullyQualifiedTypeName name="com.tut.Student"/>
-    <fullyQualifiedTypeName name="com.tut.Certificate"/>
     <fullyQualifiedTypeName name="javax.persistence.Embeddable"/>
     <fullyQualifiedTypeName name="javax.lang.model.element.NestingKind"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
@@ -12,13 +10,17 @@
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="java.lang.module.Configuration"/>
-    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
-    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
     <fullyQualifiedTypeName name="org.hibernate.boot.model.relational.QualifiedNameImpl"/>
-    <fullyQualifiedTypeName name="org.hibernate.Session"/>
-    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
     <fullyQualifiedTypeName name="com.map.Answer"/>
     <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
     <fullyQualifiedTypeName name="com.map.Question"/>
+    <fullyQualifiedTypeName name="java.io.DataOutput"/>
+    <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+    <fullyQualifiedTypeName name="com.tut.Student"/>
+    <fullyQualifiedTypeName name="com.tut.Certificate"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
 </qualifiedTypeNameHistroy>

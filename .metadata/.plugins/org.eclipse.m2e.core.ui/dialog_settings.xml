@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\One Drive\OneDrive\Desktop\Hibernate\Servers"/>
 			<item value="C:\One Drive\OneDrive\Desktop\Hibernate\ProjectWithMaven"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,13 +27,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.todo.NoteTaker"/>
+			<item value="com.todo"/>
 			<item value="com.tut.WebAppWithHiber"/>
 			<item value="com.tut"/>
 		</list>
 		<list key="groupId">
+			<item value="com.todo"/>
 			<item value="com.tut"/>
 		</list>
 		<list key="artifactId">
+			<item value="NoteTaker"/>
 			<item value="WebAppWithHiber"/>
 			<item value="ProjectWithMaven"/>
 		</list>
